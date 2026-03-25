@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Product } from "../types";
+import type { Product } from "../types";
 
 export function useInventory() {
   const [products, setProducts] = useState<Product[]>([]);
